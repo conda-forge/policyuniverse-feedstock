@@ -1,5 +1,5 @@
 {% set name = "policyuniverse" %}
-{% set version = "1.5.1.20230817" %}
+{% set version = "1.5.1.20231109" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/policyuniverse-{{ version }}.tar.gz
-  sha256: 7920896195af163230635f1a5cee0958f56003ef8c421f805ec81f134f80a57c
+  sha256: 74e56d410560915c2c5132e361b0130e4bffe312a2f45230eac50d7c094bc40a
 
 build:
   noarch: python
